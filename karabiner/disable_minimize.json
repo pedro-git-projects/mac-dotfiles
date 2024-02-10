@@ -1,0 +1,16 @@
+{
+    "description": "Prevent command-m minimize window",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "m",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "type": "basic"
+        }
+    ]
+}

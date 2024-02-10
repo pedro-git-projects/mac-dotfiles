@@ -1,0 +1,24 @@
+{
+    "description": "Bind spotlight to cmd - p",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "p",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": [
+                        "left_command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
