@@ -1,9 +1,10 @@
 #!/bin/bash
+#
 
 ### Gruvbox
 export BLACK=0xff282828
 export WHITE=0xfff2e5bc
-export RED=0xffcc241d
+# export RED=0xffcc241d
 export GREEN=0xff98971a
 export BLUE=0xff458588
 export YELLOW=0xffd79921
@@ -14,6 +15,7 @@ export TRANSPARENT=0x00000000
 export BG0=0xff282828
 export BG1=0xff3c3836
 export BG2=0xff504945
+
 
 ### Sonokai
 # export BLACK=0xff181819
@@ -33,7 +35,7 @@ export BG2=0xff504945
 ### Catppuccin
 # export BLACK=0xff181926
 # export WHITE=0xffcad3f5
-# export RED=0xffed8796
+export RED=0xffed8796
 # export GREEN=0xffa6da95
 # export BLUE=0xff8aadf4
 # export YELLOW=0xffeed49f

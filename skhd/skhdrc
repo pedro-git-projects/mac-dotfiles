@@ -23,6 +23,9 @@ cmd - q : yabai -m window --close
 # Toggle Layouts
 alt - space : yabai -m space --layout next 
 
+# Toggle bar
+cmd - b : sketchybar --bar hidden=toggle
+
 # Change focus display focus 
 alt - s: yabai -m display --focus west
 alt - g: yabai -m display --focus east
@@ -48,4 +51,5 @@ cmd + shift - 6 : yabai -m window --space 6
 cmd + shift - 7 : yabai -m window --space 7
 cmd + shift - 8 : yabai -m window --space 8
 cmd + shift - 9 : yabai -m window --space 9
+
 
